@@ -16,11 +16,11 @@ La capa de presentación (React/Vite) consume el backend Node/Express y las APIs
 
 ```mermaid
 flowchart LR
-    React[React + Vite (dashboard y alertas)] --> Node[Node/Express BFF (auth, JWT, chat proxy)]
-    Node --> n8n[n8n (chat trigger + AI Agent + HTTP Request)]
-    n8n --> Azure[Azure OpenAI GPT-4o]
-    n8n --> Google[Google Calendar API]
-    n8n --> Mongo[MongoDB (eventos, tokens)]
+    React["React + Vite (dashboard y alertas)"] --> Node["Node/Express BFF (auth, JWT, chat proxy)"]
+    Node --> n8n["n8n (chat trigger + AI Agent + HTTP Request)"]
+    n8n --> Azure["Azure OpenAI GPT-4o"]
+    n8n --> Google["Google Calendar API"]
+    n8n --> Mongo["MongoDB (eventos, tokens)"]
 ```
 
 ## Stack
